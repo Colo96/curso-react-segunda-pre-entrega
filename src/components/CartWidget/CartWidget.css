@@ -1,0 +1,28 @@
+.containerCarrito{
+    background-color:magenta;
+    width: 100px;
+    height: 90px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.containerCarrito:hover{
+    background-color:yellow;
+    transition: all 0.5s;
+}
+
+.contadorItems{
+    display: inline-block;
+    background-color: orange;
+    height: 25px;
+    width: 20px;
+    padding: 2px;
+    position: relative;
+    top: 20px;
+    border-radius: 5px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}

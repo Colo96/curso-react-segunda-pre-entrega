@@ -1,0 +1,6 @@
+.containerItemList{
+    width: 100%;
+    box-sizing: border-box;
+    height: 84vh;
+    background-image: url(../../assets/fondo.jpg);
+}

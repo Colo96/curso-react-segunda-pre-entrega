@@ -1,0 +1,54 @@
+.navBar{
+    background-color: cyan;
+    width: 100%;
+    height: 150px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.containerLogo{
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-image: url(../../assets/ice-cream-logo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.elementosMenu{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 750px;
+    flex-wrap: wrap;
+}
+
+.elementosMenu li{
+    width: 100px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.elementosMenu li a{
+    display: block;
+    width: 100%;
+    padding: 1.25rem;
+    background-color: magenta;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.elementosMenu li a:hover{
+    background-color: yellow;
+    transition: all 0.5s;
+}
