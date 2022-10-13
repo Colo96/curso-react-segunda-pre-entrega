@@ -1,0 +1,6 @@
+.itemDetailContainer{
+    width: 100%;
+    box-sizing: border-box;
+    height: 100%;
+    background-image: url(../../assets/fondo.jpg);
+}
