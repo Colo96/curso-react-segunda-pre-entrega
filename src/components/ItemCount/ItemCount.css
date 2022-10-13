@@ -1,0 +1,46 @@
+.containerItemCount{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerItemCount button{
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    background-color: magenta;
+}
+
+.containerItemCount button:hover{
+    background-color: yellow;
+    transition: all 0.5s;
+}
+
+.containerCount{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.containerCount button{
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    background-color: magenta;
+    width: 25px;
+}
+
+.containerCount button:hover{
+    background-color: yellow;
+    transition: all 0.5s;
+}

@@ -13,17 +13,17 @@ export const NavBar = () => {
                 </li>
                 <li>
                    <a href="/">
-                      Productos
+                       Locales
                    </a>
                 </li>
                 <li>
                     <a href="/">
-                       Locales
+                       Nosotros
                     </a>
                 </li>
                 <li>
                     <a href="/">
-                       Nosotros
+                       Contacto
                     </a>
                 </li>
             </ul>
