@@ -1,6 +1,7 @@
 import './Item.css';
 import {ItemCount} from '../ItemCount/ItemCount';
 import {useState} from 'react';
+import {Link} from 'react-router-dom';
 
 export const Item = (props) => {
 
@@ -30,7 +31,7 @@ export const Item = (props) => {
             $ {props.price}
           </p>
           <ItemCount stock="5" initial={contador} mas={incrementar} menos={decrementar} onAdd={onAdd}/>
-          <button className="detailButton">Ver detalle</button>
+          <Link to={`/detalle/${props.key}`} className="detailButton">Ver detalle</Link>
        </div>
     )
 }
